@@ -25,7 +25,7 @@ class Battlefield:
             self.robot.attack(self.dinosaur)
             print(self.robot.health, "Terminator's health")
             if(self.dinosaur.healh >0):
-                self.dinosaur.attack_power(self.robot)
+                self.dinosaur.attack(self.robot)
                 print(self.dinosaur.health, "Blue's health")
             else:
                 print("The battle has come to an end")
